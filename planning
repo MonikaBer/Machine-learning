@@ -1,0 +1,18 @@
+cross-walidacja (żeby zobaczyć jak działa metoda; przyjmuje metodę i dane)
+
+- permutacja zbioru danych wejściowych
+- dzielę dane na k równych zbiorów (oprócz końcowego)
+- dla każdego z k zbiorów wybieram wszystkie oprócz jednego jako treningowe,
+a ten wybrany jest testowy
+- trenuję daną metodę na danych treningowych, robię predykcję na danych testowych i porównuje z prawdą
+- określam procent trafień dla każdego z k podzbiorów i wyciągam średnią
+
+Sprawdzić
+- czy bayes ma hiperparametr
+- SVM ma 1 hiperparametr?
+- w sklearn'ie zobaczyć, jakie parametry są w konstruktorach (dla SVM i Bayes'a) - to bedą hiperparametry
+- hipersiatka to prostokąt w wielu wymiarach (wykorzystać wyszukiwanie po hipersiatce)
+
+Liczba linii z fałszywymi i prawdziwymi banknotami:
+762 '0'
+610 '1'
